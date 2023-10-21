@@ -163,4 +163,5 @@ def hess_finite_diff(func, x, eps=1e-5):
                           >> i <<
     """
     # TODO: Implement numerical estimation of the Hessian
+
     return None

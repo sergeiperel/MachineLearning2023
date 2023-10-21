@@ -202,5 +202,6 @@ def newton(oracle, x_0, tolerance=1e-5, max_iter=100,
     x_k = np.copy(x_0)
 
     # TODO: Implement Newton's method.
+
     # Use line_search_tool.line_search() for adaptive step size.
     return x_k, 'success', history
